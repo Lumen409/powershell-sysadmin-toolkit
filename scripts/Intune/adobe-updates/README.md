@@ -1,6 +1,6 @@
 # adobe-updates
 
-Detects if AdobeRUM is on the device. Runs RUM (Remote Update Manager) on the device if present.
+Detects if AdobeRUM is on the device. Runs RUM (Remote Update Manager) if present.
 
 ## What it does
 When you deploy Adobe products you need to create a package from the Adobe admin console, when the product gets packaged it will add another program called "AdobeRUM.exe"
