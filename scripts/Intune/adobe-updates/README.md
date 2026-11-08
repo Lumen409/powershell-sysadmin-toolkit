@@ -26,4 +26,5 @@ The remediation script runs the updater tool (if not updated) and logs the proce
 - Adobe updates can take a LONG time, so I have a timer of 45 minutes to ensure everything updated, you can adjust that time if you want.
   I labeled it and noted it's in milliseconds.
 - Both ps1's are heavily notated, just open with notepad to view all the documentation
+- $logDir  = "C:\ProgramData\AdobeRUM" ... you can change this path for logs, or you can just remove it.
 
