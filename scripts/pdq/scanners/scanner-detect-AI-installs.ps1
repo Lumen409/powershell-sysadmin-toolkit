@@ -1,3 +1,13 @@
+<#
+.SYNOPSIS
+    Detects AI installations
+.DESCRIPTION
+    Looks for MSIX (store installs), Machine-wide installs (programs/feaures), User-installs (most AI installs occur at the C:\users\appdata\local....annoying I know)
+.NOTES
+    Author: Lumen409
+    Tested on: Windows 11, PowerShell 5.1
+#>
+
 $ErrorActionPreference = 'SilentlyContinue'
 $findings = New-Object System.Collections.Generic.List[object]
 
