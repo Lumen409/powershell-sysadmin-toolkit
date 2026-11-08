@@ -3,7 +3,7 @@
 Detects if AdobeRUM is on the device. Runs RUM (Remote Update Manager) if present.
 
 ## What it does
-When you deploy Adobe products you need to create a package from the Adobe admin console, when the product gets packaged it will add another program called "AdobeRUM.exe"
+Before you deploy Adobe products you need to create a package from the Adobe admin console, when the product gets packaged it will add another program called "AdobeRUM.exe"
 The detection script detects all known location AdobeRUM could be and (if found) runs the remediation script.
 The remediation script runs the updater tool (if not updated) and logs the process in "C:\ProgramData\AdobeRUM".
 
