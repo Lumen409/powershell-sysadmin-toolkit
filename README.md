@@ -1,6 +1,6 @@
 # powershell-sysadmin-toolkit
 
-Knowledgebase of various script I've tested and used for work.
+Knowledgebase of various scripts I've tested and used for work.
 
 ## Requirements
 Each README will have suggested requirements needed to run the script
@@ -12,10 +12,10 @@ Each README will have suggested requirements needed to run the script
 Each folder will have README's following a "Usage" section that will tell you how to implement/deploy these scripts
 
 ## What it does
-Each README will also have this section describing the function of the script.
+Each README will also have a "What it does" describing the function of the script.
 
 ## Notes and caveats
-Anything someone could trip over.
+Anything someone could trip over will have some notes or tips.
 
 ## License
-If required
+
