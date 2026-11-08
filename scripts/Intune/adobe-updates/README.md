@@ -16,9 +16,9 @@ The remediation script runs the updater tool (if not updated) and logs the proce
 1. Go to Intune -> Devices -> "Scripts and Remediations" -> "Create custom script"
 2. After assigning a name go to "settings"
 3. import the detection script and remediation script
-  - Run this script using the logged-on credentials - No
-  - Enforce script signature check - No
-  - Run script in 64-bit PowerShell - Yes
+   - Run this script using the logged-on credentials - No
+   - Enforce script signature check - No
+   - Run script in 64-bit PowerShell - Yes
 4. assign the Intune group you want to run the scripts on
 
 ## Notes and caveats
