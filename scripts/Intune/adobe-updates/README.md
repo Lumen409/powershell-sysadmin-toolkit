@@ -8,9 +8,8 @@ The detection script detects all known location AdobeRUM could be and (if found)
 The remediation script runs the updater tool (if not updated) and logs the process in "C:\ProgramData\AdobeRUM".
 
 ## Requirements
-- PowerShell version
-- Required modules or permissions
-- Tested on (for example, Windows 11 23H2, Intune)
+- Intune application manager or higher
+- Tested on Windows 11 23H2, 24H2, 25H2, Intune
 
 ## Usage
 1. Go to Intune -> Devices -> "Scripts and Remediations" -> "Create custom script"
