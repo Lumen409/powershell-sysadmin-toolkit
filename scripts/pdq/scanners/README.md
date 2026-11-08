@@ -6,6 +6,11 @@ These are powershell scripts specifically tested and used for PDQ scanners
 scanner-allow-telemetry.ps1 - Checks if Windows Telemetry is actually turned on (since Intune isn't reliable when changing Telemetry types)
 scanner-detect-AI-installs.ps1 - Checks multiple locations for AI installation (%user\appdata\local yayy....)
 
+## Requirements
+- PDQ Connect subscription with at least the role of member
+- PDQ Connect agent needs to be deployed to the devices for it to work
+- Powershell version - 10.0.26100.9549 at the time of this script
+
 ## Usage
   1. Go to the "scanners" option, create a new scanner and name it with the file type set as "powershell script".
   2.  Copy and paste the script (or import it) in the command field.
