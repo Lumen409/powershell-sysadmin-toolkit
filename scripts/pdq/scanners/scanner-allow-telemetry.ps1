@@ -1,8 +1,8 @@
-#.SYNOPSIS
+#SYNOPSIS
 #    Detects if Windows Telemetry is turned on
-#.DESCRIPTION
+#DESCRIPTION
 #    Specifically checks the registry path for the Windows Telemetry but looking in the two most common places.
-#.NOTES
+#NOTES
 #    Author: Lumen409
 #    Tested on: Windows 11, PowerShell 5.1
 
