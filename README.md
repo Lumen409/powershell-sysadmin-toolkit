@@ -1,4 +1,4 @@
-# • powershell-sysadmin-toolkit
+# powershell-sysadmin-toolkit
 
 Knowledgebase of various script I've tested and used for work.
 
