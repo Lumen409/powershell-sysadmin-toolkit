@@ -1,13 +1,11 @@
-<#
-.SYNOPSIS
-    Detects if Windows Telemetry is turned on
-.DESCRIPTION
-    Specifically checks the registry path for the Windows Telemetry but looking in the two most common places.
+#.SYNOPSIS
+#    Detects if Windows Telemetry is turned on
+#.DESCRIPTION
+#    Specifically checks the registry path for the Windows Telemetry but looking in the two most common places.
+#.NOTES
+#    Author: Lumen409
+#    Tested on: Windows 11, PowerShell 5.1
 
-.NOTES
-    Author: Lumen409
-    Tested on: Windows 11, PowerShell 5.1
-#>
 # Checks both the GPO path and the MDM/Intune path
 $paths = @(
     'HKLM:\SOFTWARE\Policies\Microsoft\Windows\DataCollection',
