@@ -1,9 +1,9 @@
 <#
-.SYNOPSIS
+SYNOPSIS
     Detects AI installations
-.DESCRIPTION
+DESCRIPTION
     Looks for MSIX (store installs), Machine-wide installs (programs/feaures), User-installs (most AI installs occur at the C:\users\appdata\local....annoying I know)
-.NOTES
+NOTES
     Author: Lumen409
     Tested on: Windows 11, PowerShell 5.1
 #>
