@@ -5,7 +5,7 @@ Collection of PDQ scripts that have helped me collect information, report on, tr
 ## Requirements
 - Powershell - 10.0.26100.9549
 - PDQConnectAgent - 5.15.57
-- FullLanguageMode on (if running WDAC on managed Windows devices) since it leverages scans
+- FullLanguageMode on (if running WDAC on managed Windows devices) since it leverages device scans
 - Elevated PDQ rights (member or higher if default or RBAC aren't being used)
 - Tested on Windows 11 25H2, 24H4, 23H2
 
