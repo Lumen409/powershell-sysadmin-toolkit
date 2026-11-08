@@ -15,8 +15,7 @@ These powershell scripts have been tested and confirmed to be ran inside PDQ. Th
 ## What it does
 These scripts are for data collection, proactive remediations, or general intel
 
-## Notes and caveats
-Anything someone could trip over.
+## Notes
+
 
 ## License
-MIT
