@@ -9,9 +9,10 @@ These are powershell scripts specifically tested and used for PDQ scanners
   4.  after pdq ran the script successfully make sure to select the variable type appropriately (ie. string (most will be strings btw))
 
 ## What it does
-These powershell scanners are custom scripts I created because PDQ either didn't provide them or I couldn't find the information the way I wanted it.
+scanner-allow-telemetry.ps1 - Checks if Windows Telemetry is actually turned on (since Intune isn't reliable when changing Telemetry types)
+scanner-detect-AI-installs.ps1 - Checks multiple locations for AI installation (%user\appdata\local yayy....)
 
 ## Notes
 PDQ requires variables to be selected so you can assign the information your wanting into outputted data. 
 Meaning If I run a powershell script to pull CPU models, 
-I need a variable called "CPU models" so the information can be pushed on the device.
+I need a variable called "CPU models" and identified as a variable type so the information can be pushed on the device.
