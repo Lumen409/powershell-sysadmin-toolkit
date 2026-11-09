@@ -18,12 +18,12 @@ Each script folder has its own README. Start there. A typical README covers:
 - **Overview:** the problem, the approach, and the result
 - **Requirements:** PowerShell version, permissions, and what it was tested on
 - **Usage:** how to deploy or run the scripts
-- **Notes and caveats:** anything worth knowing before you run it
+- **Notes:** anything worth knowing before you run it
 
 ## Before you run anything
 
 - Read each script first and test it on a single device or a small pilot group before deploying widely.
-- Environment-specific details such as server names, domains, and IDs have been replaced with placeholders. Review paths, names, and settings and adjust them for your environment.
+- Review paths, names, and settings and adjust them for your environment, if needed.
 - These scripts are provided as-is, without warranty. You're responsible for testing them in your own environment.
 
 ## Feedback
