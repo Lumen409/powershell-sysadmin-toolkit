@@ -69,6 +69,4 @@ The remediation script writes to `C:\ProgramData\AdobeRUM` on each device:
 - Detection parses RUM's text output, so a future Adobe change to that wording could require updating the match.
 - If an Adobe app is open during the update, RUM can report a failure, and the next scheduled run will try again.
 
-## License
 
-MIT
