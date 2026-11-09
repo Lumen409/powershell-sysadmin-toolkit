@@ -3,7 +3,6 @@
 Folder organizing my scripts that I've verified and tested in my environment that has helped me.
 
 ## Requirements
-- PowerShell version - 10.0.26100.9549
 - Required modules or permissions
   - Device admin rights
   - PDQ member or higher
