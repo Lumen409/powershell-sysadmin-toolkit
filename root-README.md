@@ -9,7 +9,7 @@ PowerShell scripts I've written, tested, and used to manage Windows endpoints in
 | [`scripts/Intune/adobe-updates`](scripts/Intune/adobe-updates) | Intune Remediation that keeps Adobe apps patched using Adobe's Remote Update Manager |
 | [`scripts/pdq/scanners`](scripts/pdq/scanners) | PDQ Connect scanner scripts for Windows telemetry status and AI app detection |
 
-More scripts will be added over time, organized by tool.
+More scripts will be added over time, organized by tool (Intune, PDQ, MicrosoftXDR, etc).
 
 ## How it's organized
 
