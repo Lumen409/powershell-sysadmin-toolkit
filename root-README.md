@@ -2,7 +2,7 @@
 
 PowerShell scripts I've written, tested, and used to manage Windows endpoints in a large environment. They cover Intune, PDQ Connect, and general sysadmin work, and they're shared here so other admins can borrow them, adapt them, and deploy them in their own organizations.
 
-## What's inside
+## What's inside (so far)
 
 | Folder | What it contains |
 |--------|------------------|
