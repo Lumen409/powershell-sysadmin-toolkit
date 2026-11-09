@@ -27,7 +27,7 @@ Both scripts are heavily commented. Open them in any text editor to read the ful
 - Adobe products packaged from the Adobe Admin Console with Remote Update Manager included, so `RemoteUpdateManager.exe` is installed under `Common Files\Adobe\OOBE_Enterprise\RemoteUpdateManager`
 - Runs as SYSTEM in 64-bit PowerShell
 - No additional PowerShell modules
-- Tested on: `<Windows version, e.g. Windows 11 23H2>`
+- Tested on: `<Windows 11 23H2, 24H2, 25H2>`
 
 ## Usage
 
