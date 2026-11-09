@@ -3,7 +3,6 @@
 Collection of PDQ scripts that have helped collect information, triage and actively troubleshoot/remediate problems.
 
 ## Requirements
-- Powershell - 10.0.26100.9549
 - PDQConnectAgent - 5.15.57 deployed on devices
 - FullLanguageMode on (if running WDAC on managed Windows devices) since it leverages device scans
 - Elevated PDQ rights (member or higher if default or RBAC aren't being used)
