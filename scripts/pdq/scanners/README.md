@@ -9,7 +9,6 @@ scanner-detect-AI-installs.ps1 - Checks multiple locations for AI installation (
 ## Requirements
 - PDQ Connect subscription with at least the role of member
 - PDQ Connect agent needs to be deployed to the devices for it to work
-- Powershell version - 10.0.26100.9549 at the time of this script
 
 ## Usage
   1. Go to the "scanners" option, create a new scanner and name it with the file type set as "powershell script".
