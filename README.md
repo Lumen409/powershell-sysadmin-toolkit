@@ -1,21 +1,35 @@
 # powershell-sysadmin-toolkit
 
-Knowledgebase of various scripts I've tested and used for work.
+PowerShell scripts I've written, tested, and used to manage Windows endpoints in a large environment. They cover Intune, PDQ Connect, and general sysadmin work, and they're shared here so other admins can borrow them, adapt them, and deploy them in their own organizations.
 
-## Requirements
-Each README will have suggested requirements needed to run the script
-- PowerShell version
-- Required modules or permissions
-- Tested on (for example, Windows 11 23H2, Intune)
+## What's inside (so far)
 
-## Usage
-Each folder will have README's following a "Usage" section that will tell you how to implement/deploy these scripts
+| Folder | What it contains |
+|--------|------------------|
+| [`scripts/Intune/adobe-updates`](scripts/Intune/adobe-updates) | Intune Remediation that keeps Adobe apps patched using Adobe's Remote Update Manager |
+| [`scripts/pdq/scanners`](scripts/pdq/scanners) | PDQ Connect scanner scripts for Windows telemetry status and AI app detection |
 
-## What it does
-Each README will also have a "What it does" describing the function of the script.
+More scripts will be added over time, organized by tool (Intune, PDQ, MicrosoftXDR, etc).
 
-## Notes and caveats
-Anything someone could trip over will have some notes or tips.
+## How it's organized
+
+Each script folder has its own README. Start there. A typical README covers:
+
+- **Overview:** the problem, the approach, and the result
+- **Requirements:** PowerShell version, permissions, and what it was tested on
+- **Usage:** how to deploy or run the scripts
+- **Notes:** anything worth knowing before you run it
+
+## Before you run anything
+
+- Read each script first and test it on a single device or a small pilot group before deploying widely.
+- Review paths, names, and settings and adjust them for your environment, if needed.
+- These scripts are provided as-is, without warranty. You're responsible for testing them in your own environment.
+
+## Feedback
+
+Found a bug or have an improvement? Open an issue.
 
 ## License
 
+Released under the MIT License. See [LICENSE](LICENSE).
