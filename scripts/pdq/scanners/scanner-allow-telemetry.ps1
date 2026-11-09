@@ -26,4 +26,3 @@ $status = if ($val -eq 1)         { 'Compliant' }
 [PSCustomObject]@{
     AllowTelemetryStatus = $status
 }
-```
